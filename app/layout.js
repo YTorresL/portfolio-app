@@ -1,14 +1,16 @@
 import './globals.css'
+import 'normalize.css/normalize.css'
 
-export const metadata = {
-  title: 'Yalith Torres',
-  description: 'Portfolio web',
-}
 
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="es">
+      {/*
+        <head /> will contain the components returned by the nearest parent
+        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
+      */}
+      <head />
+      <body className="bg-black">{children}</body>
     </html>
   )
 }
