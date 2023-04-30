@@ -14,7 +14,6 @@
     "@next/font": "13.2.4",
     "@react-three/drei": "9.66.1",
     "@react-three/fiber": "8.13.0",
-    "@types/three": "0.151.0",
     "eslint-config-next": "13.2.4",
     "firebase": "9.18.0",
     "firebase-admin": "11.5.0",
