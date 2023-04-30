@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   experimental: {
-    appDir: true
+    appDir: true,
   },
   images: {
-    domains: ['firebasestorage.googleapis.com']
+    domains: ["firebasestorage.googleapis.com"],
   },
 }
 
