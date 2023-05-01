@@ -2,7 +2,6 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ytorresl.github.io/portfolio-app/build",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
