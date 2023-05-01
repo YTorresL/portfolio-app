@@ -22,9 +22,11 @@ export default function PortfolioId({ params }) {
   }, [])
 
   if (loading) {
-    return <div className="xl:text-[0.9rem] uppercase tracking-[0.32rem] text-amber-500 w-full h-screen text-[0.65rem] font-bold sm:text-xs flex flex-col items-center justify-center">
-      <h3>Loading...</h3>
+    return (
+      <div className="xl:text-[0.9rem] uppercase tracking-[0.32rem] text-amber-500 w-full h-screen text-[0.65rem] font-bold sm:text-xs flex flex-col items-center justify-center">
+        <h3>Loading...</h3>
       </div>
+    )
   }
 
   return (
