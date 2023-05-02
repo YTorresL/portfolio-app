@@ -102,7 +102,7 @@ export function NavigationGeneral() {
           <ul className="hidden md:flex">
             {socialMedia.map(({ route, icon }) => (
               <li className="md:mx-2 lg:mx-4" key={route}>
-                <Link href={route}>{icon}</Link>
+                <Link href={route} target="_blank">{icon}</Link>
               </li>
             ))}
           </ul>
@@ -131,7 +131,7 @@ export function NavigationGeneral() {
           <ul className="absolute md:flex bottom-4 right-6">
             {socialMedia.map(({ route, icon }) => (
               <li className="my-4" key={route}>
-                <Link href={route}>{icon}</Link>
+                <Link href={route} target="_blank">{icon}</Link>
               </li>
             ))}
           </ul>
@@ -145,7 +145,6 @@ export function NavigationSection({ section }) {
   return (
     <div className="border-[#3a3a32] border-b">
       <div className="flex items-center justify-start lg:h-[4%] lg:p-4 p-2 h-[3%]">
-        <Link href="/">
           <Logo
             className="w-10 md:w-12"
             fill="#f59e0b"
@@ -153,7 +152,6 @@ export function NavigationSection({ section }) {
             strokeMiterlimit="10"
             strokeWidth="16"
           />
-        </Link>
         <h1 className="sm:ml-16 font-way sm:text-2xl lg:text-[2.5rem] word-12 uppercase tracking-[0.45rem] text-white my-0 text-[0.9rem] ml-4">
           {section}
         </h1>

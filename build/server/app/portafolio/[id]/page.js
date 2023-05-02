@@ -306,16 +306,6 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 75988:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 95958, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 48950, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 12513, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 81551, 23))
-
-/***/ }),
-
 /***/ 3618:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -373,7 +363,6 @@ function PortfolioId({ params  }) {
         });
     }
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_AppLayout_page__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
-        className: "h-full",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Navigation_page__WEBPACK_IMPORTED_MODULE_3__/* .NavigationGeneral */ .$M, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -382,8 +371,8 @@ function PortfolioId({ params  }) {
                     className: "px-2 mx-auto lg:px-5",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            className: "lg:ml-8 font-way lg:text-[3rem] word-12 uppercase tracking-[0.45rem] text-amber-500 text-2xl lg:mb-0 xl:mb-[2%] lg:mt-5",
-                            children: portfolio?.Date
+                            className: "lg:ml-8 font-way lg:text-[3rem] lg:py-0 py-[4%] word-12 uppercase tracking-[0.45rem] text-amber-500 text-2xl lg:mb-0 lg:mt-5",
+                            children: portfolio.Date
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "flex flex-wrap mx-auto lg:w-[95%]",
@@ -396,28 +385,28 @@ function PortfolioId({ params  }) {
                                     height: 500
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: "w-full mt-4 lg:w-[45%] lg:pl-10 lg:py-6 lg:mt-0",
+                                    className: "w-full mt-[6%] lg:w-[45%] lg:pl-10 lg:py-6 lg:mt-0",
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                            className: "lg:text-[0.8rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 lg:mb-2 lg:mt-12 text-xs",
+                                            className: "lg:text-[0.8rem] mb-[1%] font-semibold uppercase tracking-[0.32rem] text-amber-500 lg:mb-2 lg:mt-12 text-xs",
                                             children: portfolio.Type
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                                            className: "font-bold mb-2 font-way text-[1.2rem] uppercase tracking-[0.32rem] text-white",
+                                            className: "font-bold mb-[2%] font-way text-[1.2rem] uppercase tracking-[0.32rem] text-white",
                                             children: portfolio.Name
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: "mb-2 leading-6 text-white lg:mb-5",
+                                            className: "mb-[3%] leading-6 text-white lg:mb-5",
                                             children: portfolio.Description
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: "text-[0.6rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 bg-neutral-900/50 p-1 text-center mb-1",
+                                            className: "text-[0.6rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 bg-neutral-900/50 p-[2%] text-center lg:mb-[2%] mb-[3%]",
                                             children: portfolio.Technologies
                                         })
                                     ]
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                    className: "mt-[2%] w-full py-2 text-[0.8rem] font-bold uppercase tracking-[0.32rem] bg-amber-500 text-white",
+                                    className: "mt-[2%] w-full py-2 text-[0.8rem] font-bold uppercase tracking-[0.32rem] bg-amber-500 text-white lg:mb-0 mb-[34%]",
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
                                         href: `${portfolio.Link}`,
                                         target: "_blank",
@@ -447,7 +436,7 @@ function PortfolioId({ params  }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [55,421,738], () => (__webpack_exec__(75913)));
+var __webpack_exports__ = __webpack_require__.X(0, [55,421,573], () => (__webpack_exec__(75913)));
 module.exports = __webpack_exports__;
 
 })();

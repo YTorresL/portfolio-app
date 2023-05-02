@@ -30,12 +30,12 @@ export default function PortfolioId({ params }) {
   }
 
   return (
-    <AppLayout className="h-full">
+    <AppLayout>
       <NavigationGeneral />
       <div className="overflow-hidden text-gray-700 mb-[3%]" key={portfolio.id}>
         <div className="px-2 mx-auto lg:px-5">
-          <p className="lg:ml-8 font-way lg:text-[3rem] word-12 uppercase tracking-[0.45rem] text-amber-500 text-2xl lg:mb-0 xl:mb-[2%] lg:mt-5">
-            {portfolio?.Date}
+          <p className="lg:ml-8 font-way lg:text-[3rem] lg:py-0 py-[4%] word-12 uppercase tracking-[0.45rem] text-amber-500 text-2xl lg:mb-0 lg:mt-5">
+            {portfolio.Date}
           </p>
           <div className="flex flex-wrap mx-auto lg:w-[95%]">
             <Image
@@ -45,21 +45,21 @@ export default function PortfolioId({ params }) {
               width={500}
               height={500}
             />
-            <div className="w-full mt-4 lg:w-[45%] lg:pl-10 lg:py-6 lg:mt-0">
-              <h2 className="lg:text-[0.8rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 lg:mb-2 lg:mt-12 text-xs">
+            <div className="w-full mt-[6%] lg:w-[45%] lg:pl-10 lg:py-6 lg:mt-0">
+              <h2 className="lg:text-[0.8rem] mb-[1%] font-semibold uppercase tracking-[0.32rem] text-amber-500 lg:mb-2 lg:mt-12 text-xs">
                 {portfolio.Type}
               </h2>
-              <h1 className="font-bold mb-2 font-way text-[1.2rem] uppercase tracking-[0.32rem] text-white">
+              <h1 className="font-bold mb-[2%] font-way text-[1.2rem] uppercase tracking-[0.32rem] text-white">
                 {portfolio.Name}
               </h1>
-              <p className="mb-2 leading-6 text-white lg:mb-5">
+              <p className="mb-[3%] leading-6 text-white lg:mb-5">
                 {portfolio.Description}
               </p>
-              <p className="text-[0.6rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 bg-neutral-900/50 p-1 text-center mb-1">
+              <p className="text-[0.6rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 bg-neutral-900/50 p-[2%] text-center lg:mb-[2%] mb-[3%]">
                 {portfolio.Technologies}
               </p>
             </div>
-            <button className="mt-[2%] w-full py-2 text-[0.8rem] font-bold uppercase tracking-[0.32rem] bg-amber-500 text-white">
+            <button className="mt-[2%] w-full py-2 text-[0.8rem] font-bold uppercase tracking-[0.32rem] bg-amber-500 text-white lg:mb-0 mb-[34%]">
               <Link href={`${portfolio.Link}`} target="_blank" rel="noreferrer">
                 <span>View Project</span>
               </Link>
