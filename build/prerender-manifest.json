@@ -1,1 +1,9 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+{"version":4,"routes":{"/portafolio":{"initialRevalidateSeconds":false,"srcRoute":"/portafolio","dataRoute":"/portafolio.rsc"},"/servicios":{"initialRevalidateSeconds":false,"srcRoute":"/servicios","dataRoute":"/servicios.rsc"},"/":{"initialRevalidateSeconds":false,"srcRoute":"/","dataRoute":"/index.rsc"}},"dynamicRoutes":{},"notFoundRoutes":[],"preview":{"previewModeId":"f32fe9cda742534cfca44d7a28ff1360","previewModeSigningKey":"5828c7aeac41dee85fd4aa816be62cc6e2527d808f042c4bdf38e1f55fcc2368","previewModeEncryptionKey":"4466fad315cf0aa906c8a5a51d5c11ef5d01d601fe5f9671b04678d292258ba0"}}
+=======
 {"version":4,"routes":{"/servicios":{"initialRevalidateSeconds":false,"srcRoute":"/servicios","dataRoute":"/servicios.rsc"},"/portafolio":{"initialRevalidateSeconds":false,"srcRoute":"/portafolio","dataRoute":"/portafolio.rsc"},"/":{"initialRevalidateSeconds":false,"srcRoute":"/","dataRoute":"/index.rsc"}},"dynamicRoutes":{},"notFoundRoutes":[],"preview":{"previewModeId":"9addaf6594cdba98a0e76b25a7e65c89","previewModeSigningKey":"26abefe0804c68a7d871356e41b1daf0a59a56542ea517e8be3667f3d7c0b593","previewModeEncryptionKey":"871fe97183ab11178cc528b612879a77099b0f774d24470ab6dc17cc64014c35"}}
+>>>>>>> 6ab8fa83145d50bee6a88f8cc68c59d8e3968703
+=======
+{"version":4,"routes":{"/servicios":{"initialRevalidateSeconds":false,"srcRoute":"/servicios","dataRoute":"/servicios.rsc"},"/portafolio":{"initialRevalidateSeconds":false,"srcRoute":"/portafolio","dataRoute":"/portafolio.rsc"},"/":{"initialRevalidateSeconds":false,"srcRoute":"/","dataRoute":"/index.rsc"}},"dynamicRoutes":{},"notFoundRoutes":[],"preview":{"previewModeId":"9addaf6594cdba98a0e76b25a7e65c89","previewModeSigningKey":"26abefe0804c68a7d871356e41b1daf0a59a56542ea517e8be3667f3d7c0b593","previewModeEncryptionKey":"871fe97183ab11178cc528b612879a77099b0f774d24470ab6dc17cc64014c35"}}
+>>>>>>> 6ab8fa83145d50bee6a88f8cc68c59d8e3968703

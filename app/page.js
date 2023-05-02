@@ -15,7 +15,7 @@ import { fetchPortfolio } from "@/firebase/client"
 import Link from "next/link"
 import TypedText from "@/components/Typed/page"
 import { Footer } from "@/components/Footer/page"
-import  Three  from "@/components/Three/page"
+import Three from "@/components/Three/page"
 import { sendContactFrorm } from "@/components/Contact/page"
 import { Arrow, Usa } from "@/components/Icons/Icons"
 import "slick-carousel/slick/slick.css"
@@ -152,7 +152,7 @@ export default function Home() {
       modules={[Mousewheel, Pagination]}
     >
       <SwiperSlide className="overflow-hidden">
-        <AppLayout>
+        <AppLayout className="h-full">
           <NavigationHome />
           <Three />
           <div className="absolute left-0 right-0 text-center top-[45%]">
@@ -179,8 +179,8 @@ export default function Home() {
           </div>
         </AppLayout>
       </SwiperSlide>
-      <SwiperSlide className="overflow-hidden">
-        <AppLayout>
+      <SwiperSlide className="overflow-hidden bg-black">
+        <AppLayout className="h-full">
           <NavigationSection section="Sobre Mi" />
           <div className="flex flex-col sm:flex-row">
             <div className="sm:h-[50%] hidden sm:block">
@@ -259,48 +259,39 @@ export default function Home() {
         </AppLayout>
       </SwiperSlide>
       <SwiperSlide className="overflow-hidden">
-        <AppLayout>
+        <AppLayout className="h-full">
           <NavigationSection section="Portafolio" />
-          <div className="grid grid-cols-1 gap-1 m-1 md:pt-[5.5%] md:gap-3 md:grid-cols-3 xl:gap-12 xl:mx-14 md:m-3 lg:m-5">
+          <div className="grid grid-cols-1 gap-1 m-1 pt-[5.5%] md:gap-3 md:grid-cols-3 xl:gap-12 xl:mx-14 md:m-3 lg:m-5">
             <div className="col-span-2">
               <div className="border border-[#3a3a32] sm:px-2 px-1 xl:h-[25.5rem] md:h-[17.5rem] sm:h-[20.5rem] lg:h-[20.5rem] overflow-hidden h-[10.5rem] 2xl:h-[30.5rem]">
                 <Slider {...settings} ref={sliderRef}>
                   {portfolio
                     .slice(0, 6)
-                    .map(
-                      ({
-                        id,
-                        ImagePortfolio,
-                        Name,
-                        Type,
-                        Date,
-                        Description,
-                      }) => (
-                        <div
-                          key={id}
-                          className="xl:h-[25.3rem] sm:h-[20.3rem]  py-2 h-[10.3rem] md:h-[17.3rem] lg:h-[20.3rem] 2xl:h-[30.3rem]"
+                    .map(({ id, ImagePortfolio, Type, Date, Description }) => (
+                      <div
+                        key={id}
+                        className="xl:h-[25.3rem] sm:h-[20.3rem]  py-2 h-[10.3rem] md:h-[17.3rem] lg:h-[20.3rem] 2xl:h-[30.3rem]"
+                      >
+                        <ul className="absolute p-1 m-1 bg-black sm:py-2 md:pl-8 sm:pl-3 sm:pr-5 sm:my-2 xl:ml-2">
+                          <li className="xl:text-[0.7rem] text-[0.6rem] font-bold uppercase tracking-[0.32rem] flex text-amber-500 md:list-disc pl-1">
+                            {Date}
+                            <span className="hidden sm:block"> - {Type}</span>
+                          </li>
+                        </ul>
+                        <Link
+                          href={`../../portafolio/${id}`}
+                          as={`../../portafolio/${id}`}
                         >
-                          <ul className="absolute p-1 m-1 bg-black sm:py-2 md:pl-8 sm:pl-3 sm:pr-5 sm:my-2 xl:ml-2">
-                            <li className="xl:text-[0.7rem] text-[0.6rem] font-bold uppercase tracking-[0.32rem] flex text-amber-500 md:list-disc pl-1">
-                              {Date}
-                              <span className="hidden sm:block"> - {Type}</span>
-                            </li>
-                          </ul>
-                          <Link
-                            href={`../../portafolio/${id}`}
-                            as={`../../portafolio/${id}`}
-                          >
-                            <Image
-                              src={ImagePortfolio}
-                              alt={`${Description}`}
-                              width={650}
-                              height={650}
-                              className="block object-cover object-top w-full h-full"
-                            />
-                          </Link>
-                        </div>
-                      )
-                    )}
+                          <Image
+                            src={ImagePortfolio}
+                            alt={`${Description}`}
+                            width={650}
+                            height={650}
+                            className="block object-cover object-top w-full h-full"
+                          />
+                        </Link>
+                      </div>
+                    ))}
                 </Slider>
               </div>
             </div>
@@ -310,7 +301,7 @@ export default function Home() {
                   {portfolio.slice(0, 6).map(({ Name }, index) => (
                     <button
                       key={Name}
-                      className=" border-b border-[#3a3a32] py-1 xl:my-3 md:text-[0.6rem] sm:pb-2 xl:text-[0.7rem] text-[0.65rem] font-bold uppercase tracking-[0.32rem] text-amber-500 hover:text-white w-[100%]"
+                      className=" border-b border-[#3a3a32] my-3 md:text-[0.6rem] pb-2 xl:text-[0.7rem] text-[0.65rem] font-bold uppercase tracking-[0.32rem] text-amber-500 hover:text-white w-[100%]"
                       onClick={() => handleButtonClick(index)}
                     >
                       {Name}
@@ -323,9 +314,9 @@ export default function Home() {
         </AppLayout>
       </SwiperSlide>
       <SwiperSlide className="overflow-hidden">
-        <AppLayout>
+        <AppLayout className="h-full">
           <NavigationSection section="Servicios" />
-          <div className="grid grid-cols-1 md:grid-cols-2 md:pt-[6.5%] mx-1 sm:mx-6 lg:mx-32 xl:max-w-2xl xl:mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 pt-[6.5%] mx-1 sm:mx-6 lg:mx-32 xl:max-w-2xl xl:mx-auto">
             {services.map(({ title, description, text, id }) => (
               <div className="xl:max-w-[22rem] m-2" key={title}>
                 <div className="relative flex border-[#3a3a32] border xl:p-6 p-2 h-60 sm:p-7 md:h-[16.5rem] overflow-hidden xl:h-[25rem] border-t-amber-500 border-t-4 pt-4">
@@ -353,9 +344,9 @@ export default function Home() {
         </AppLayout>
       </SwiperSlide>
       <SwiperSlide className="overflow-hidden">
-        <AppLayout>
+        <AppLayout className="h-full">
           <NavigationSection section="Contacto" />
-          <div className="grid grid-cols-1 md:grid-cols-2 md:py-[4.7%] md:mx-3 xl:w-10/12 xl:mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 py-[4.7%] md:mx-3 xl:w-10/12 xl:mx-auto">
             <div className="w-full">
               <form
                 method="post"
@@ -437,7 +428,7 @@ export default function Home() {
               </form>
             </div>
             <div className="flex items-center justify-center h-full">
-              <div className="w-full mt-2 leading-6 text-white">
+              <div className="w-full mt-[2%] xl:mt-2 leading-6 text-white">
                 <div className="justify-center hidden w-full mb-2 md:flex">
                   <AnimeJs />
                 </div>
@@ -449,7 +440,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Footer />
+          <Footer className="w-[88%] mx-auto absolute bottom-0 right-0 left-0" />
         </AppLayout>
       </SwiperSlide>
     </Swiper>

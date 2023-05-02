@@ -373,6 +373,7 @@ function PortfolioId({ params  }) {
         });
     }
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_AppLayout_page__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
+        className: "h-full",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Navigation_page__WEBPACK_IMPORTED_MODULE_3__/* .NavigationGeneral */ .$M, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {

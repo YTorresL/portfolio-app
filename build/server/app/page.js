@@ -416,6 +416,18 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+/***/ 4777:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 95958, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 81551, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 48950, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 12513, 23))
+=======
+=======
+>>>>>>> 6ab8fa83145d50bee6a88f8cc68c59d8e3968703
 /***/ 86063:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -423,6 +435,10 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 48950, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 81551, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 95958, 23))
+<<<<<<< HEAD
+>>>>>>> 6ab8fa83145d50bee6a88f8cc68c59d8e3968703
+=======
+>>>>>>> 6ab8fa83145d50bee6a88f8cc68c59d8e3968703
 
 /***/ }),
 
@@ -1616,6 +1632,7 @@ function Home() {
             /*#__PURE__*/ jsx_runtime_.jsx(swiper_react/* SwiperSlide */.o5, {
                 className: "overflow-hidden",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(page/* default */.Z, {
+                    className: "h-full",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Navigation_page/* default */.ZP, {}),
                         /*#__PURE__*/ jsx_runtime_.jsx(Three, {}),
@@ -1661,8 +1678,9 @@ function Home() {
                 })
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(swiper_react/* SwiperSlide */.o5, {
-                className: "overflow-hidden",
+                className: "overflow-hidden bg-black",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(page/* default */.Z, {
+                    className: "h-full",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Navigation_page/* NavigationSection */.sh, {
                             section: "Sobre Mi"
@@ -1791,12 +1809,13 @@ function Home() {
             /*#__PURE__*/ jsx_runtime_.jsx(swiper_react/* SwiperSlide */.o5, {
                 className: "overflow-hidden",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(page/* default */.Z, {
+                    className: "h-full",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Navigation_page/* NavigationSection */.sh, {
                             section: "Portafolio"
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "grid grid-cols-1 gap-1 m-1 md:pt-[5.5%] md:gap-3 md:grid-cols-3 xl:gap-12 xl:mx-14 md:m-3 lg:m-5",
+                            className: "grid grid-cols-1 gap-1 m-1 pt-[5.5%] md:gap-3 md:grid-cols-3 xl:gap-12 xl:mx-14 md:m-3 lg:m-5",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "col-span-2",
@@ -1805,7 +1824,7 @@ function Home() {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx(lib/* default */.Z, {
                                             ...settings,
                                             ref: sliderRef,
-                                            children: portfolio.slice(0, 6).map(({ id , ImagePortfolio , Name , Type , Date , Description  })=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                            children: portfolio.slice(0, 6).map(({ id , ImagePortfolio , Type , Date , Description  })=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                                     className: "xl:h-[25.3rem] sm:h-[20.3rem]  py-2 h-[10.3rem] md:h-[17.3rem] lg:h-[20.3rem] 2xl:h-[30.3rem]",
                                                     children: [
                                                         /*#__PURE__*/ jsx_runtime_.jsx("ul", {
@@ -1846,7 +1865,7 @@ function Home() {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                             className: "text-center",
                                             children: portfolio.slice(0, 6).map(({ Name  }, index)=>/*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                    className: " border-b border-[#3a3a32] py-1 xl:my-3 md:text-[0.6rem] sm:pb-2 xl:text-[0.7rem] text-[0.65rem] font-bold uppercase tracking-[0.32rem] text-amber-500 hover:text-white w-[100%]",
+                                                    className: " border-b border-[#3a3a32] my-3 md:text-[0.6rem] pb-2 xl:text-[0.7rem] text-[0.65rem] font-bold uppercase tracking-[0.32rem] text-amber-500 hover:text-white w-[100%]",
                                                     onClick: ()=>handleButtonClick(index),
                                                     children: Name
                                                 }, Name))
@@ -1861,12 +1880,13 @@ function Home() {
             /*#__PURE__*/ jsx_runtime_.jsx(swiper_react/* SwiperSlide */.o5, {
                 className: "overflow-hidden",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(page/* default */.Z, {
+                    className: "h-full",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Navigation_page/* NavigationSection */.sh, {
                             section: "Servicios"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "grid grid-cols-1 md:grid-cols-2 md:pt-[6.5%] mx-1 sm:mx-6 lg:mx-32 xl:max-w-2xl xl:mx-auto",
+                            className: "grid grid-cols-1 md:grid-cols-2 pt-[6.5%] mx-1 sm:mx-6 lg:mx-32 xl:max-w-2xl xl:mx-auto",
                             children: services.map(({ title , description , text , id  })=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "xl:max-w-[22rem] m-2",
                                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -1913,12 +1933,13 @@ function Home() {
             /*#__PURE__*/ jsx_runtime_.jsx(swiper_react/* SwiperSlide */.o5, {
                 className: "overflow-hidden",
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(page/* default */.Z, {
+                    className: "h-full",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Navigation_page/* NavigationSection */.sh, {
                             section: "Contacto"
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "grid grid-cols-1 md:grid-cols-2 md:py-[4.7%] md:mx-3 xl:w-10/12 xl:mx-auto",
+                            className: "grid grid-cols-1 md:grid-cols-2 py-[4.7%] md:mx-3 xl:w-10/12 xl:mx-auto",
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "w-full",
@@ -2002,7 +2023,7 @@ function Home() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                     className: "flex items-center justify-center h-full",
                                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "w-full mt-2 leading-6 text-white",
+                                        className: "w-full mt-[2%] xl:mt-2 leading-6 text-white",
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                                 className: "justify-center hidden w-full mb-2 md:flex",
@@ -2017,7 +2038,9 @@ function Home() {
                                 })
                             ]
                         }),
-                        /*#__PURE__*/ jsx_runtime_.jsx(Footer_page/* Footer */.$, {})
+                        /*#__PURE__*/ jsx_runtime_.jsx(Footer_page/* Footer */.$, {
+                            className: "w-[88%] mx-auto absolute bottom-0 right-0 left-0"
+                        })
                     ]
                 })
             })

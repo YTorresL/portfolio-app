@@ -46,51 +46,59 @@ const step = [
   {
     id: 0,
     title: "Primer contacto",
-    description: "El primer contacto puede ser por correo o por medio de las redes sociales, en este punto se debe de tener claro el objetivo del proyecto y de que se trata.",
+    description:
+      "El primer contacto puede ser por correo o por medio de las redes sociales, en este punto se debe de tener claro el objetivo del proyecto y de que se trata.",
     display: "block",
   },
   {
     id: 1,
     title: "Segundo contacto",
-    description: "Se estara contactando, ya sea por correo u otro medio de su preferencia, para poder tener una reunión y poder tener una idea mas clara de lo que se quiere.",
+    description:
+      "Se estara contactando, ya sea por correo u otro medio de su preferencia, para poder tener una reunión y poder tener una idea mas clara de lo que se quiere.",
     display: "block",
   },
   {
     id: 2,
     title: "Propuesta",
-    description: "Se le enviara una propuesta de los servicios que se incluira, plazos de entegra y presupuesto con todo incluido.",
+    description:
+      "Se le enviara una propuesta de los servicios que se incluira, plazos de entegra y presupuesto con todo incluido.",
     display: "block",
   },
   {
     id: 3,
     title: "Aceptación o rechazo",
-    description: "Aqui el cliente decidira si acepta o no el presupuesto, o si quiere algun cambio en la propuesta. Si es aceptado se procedera a elegir el metodo de pago.",
+    description:
+      "Aqui el cliente decidira si acepta o no el presupuesto, o si quiere algun cambio en la propuesta. Si es aceptado se procedera a elegir el metodo de pago.",
     display: "block",
   },
   {
     id: 4,
     title: "Diseño web",
-    description: "Se procedera a diseñar el proyecto, se le enviara la maquetación del proyecto, paletas de colores, tipografias, etc. Si el cliente tiene algun diseño de referencia puede enviarlo para incluirlo en el diseño.",
+    description:
+      "Se procedera a diseñar el proyecto, se le enviara la maquetación del proyecto, paletas de colores, tipografias, etc. Si el cliente tiene algun diseño de referencia puede enviarlo para incluirlo en el diseño.",
     display: "block",
   },
   {
     id: 5,
     title: "Desarrollo web",
-    description: "Una vez que el diseño sea aceptado, se procedera a desarrollar el proyecto, se le enviara un link de prueba para que pueda ver el avance del proyecto.",
+    description:
+      "Una vez que el diseño sea aceptado, se procedera a desarrollar el proyecto, se le enviara un link de prueba para que pueda ver el avance del proyecto.",
     display: "block",
   },
   {
     id: 6,
     title: "Pruebas",
-    description: " Despues de terminar el proyecto, se haran las pruebas en los diferentes navegadores y dispositivos, para asegurar que el proyecto funcione correctamente.",
+    description:
+      " Despues de terminar el proyecto, se haran las pruebas en los diferentes navegadores y dispositivos, para asegurar que el proyecto funcione correctamente.",
     display: "block",
   },
   {
     id: 7,
     title: "Lanzamiento",
-    description: "Ya con las pruebas correspondientes se lanzara el proyecto al dominio del cliente.",
+    description:
+      "Ya con las pruebas correspondientes se lanzara el proyecto al dominio del cliente.",
     display: "hidden",
-  }
+  },
 ]
 
 const questions = [
@@ -180,7 +188,7 @@ const main = [
   {
     title: "Pago seguro por PayPal",
     icon: <Safe className="h-10" fill="#F59E0B" />,
-  }
+  },
 ]
 
 export default function Services() {
@@ -191,7 +199,7 @@ export default function Services() {
         <div className="relative px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="mx-auto text-center lg:max-w-xl">
             <h1 className="font-way lg:text-[3rem] word-12 uppercase tracking-[0.45rem] text-amber-500 mb-0 md:text-2xl font-bold text-lg leading-6 lg:leading-tight">
-                Lleva tu proyecto al siguiente nivel
+              Lleva tu proyecto al siguiente nivel
             </h1>
             <p className="mt-2 lg:mt-5 lg:text-[0.9rem] font-semibold uppercase tracking-[0.32rem] text-white text-xs">
               Construyendo tu presencia en línea
@@ -208,14 +216,16 @@ export default function Services() {
               {main.map(({ title, icon }) => (
                 <div className="flex items-center" key={title}>
                   <div>{icon}</div>
-                  <div><p className="ml-3 text-white">{title}</p></div>
+                  <div>
+                    <p className="ml-3 text-white">{title}</p>
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         </div>
       </div>
-      <div className="my-20">
+      <div className="py-20">
         <div className="container mx-auto">
           <p className="text-center text-[2rem] font-semibold uppercase tracking-[0.32rem] text-white mt-10">
             Services
@@ -283,26 +293,25 @@ export default function Services() {
           </div>
 
           <ul className="max-w-md mx-auto mt-16 space-y-12">
-            {step.map(({id, title, description, display }) => (
-            <li className="relative flex items-start" key={id}>
-              <div
-                className={`lg:-ml-0.5 absolute lg:mt-0.5 lg:top-14 lg;left-8 w-px border-l-4 border-amber-500 h-full ${display} top-[3rem] left-6`}
-              >
-              </div>
-              <div className="relative flex items-center justify-center flex-shrink-0 w-12 h-12 bg-white rounded-full shadow lg:w-16 lg:h-16">
-                <p className="font-way text-[1.5rem] font-bold uppercase tracking-[0.32rem] text-amber-500">
-                  {id}
-                </p>
-              </div>
-              <div className="ml-3 lg:ml-6">
-                <h3 className="font-way lg:text-[0.9rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 text-sm">
-                  {title}
-                </h3>
-                <p className="mt-2 leading-6 text-white lg:mt-4">
-                  {description}
-                </p>
-              </div>
-            </li>
+            {step.map(({ id, title, description, display }) => (
+              <li className="relative flex items-start" key={id}>
+                <div
+                  className={`lg:-ml-0.5 absolute lg:mt-0.5 lg:top-14 lg;left-8 w-px border-l-4 border-amber-500 h-full ${display} top-[3rem] left-6`}
+                ></div>
+                <div className="relative flex items-center justify-center flex-shrink-0 w-12 h-12 bg-white rounded-full shadow lg:w-16 lg:h-16">
+                  <p className="font-way text-[1.5rem] font-bold uppercase tracking-[0.32rem] text-amber-500">
+                    {id}
+                  </p>
+                </div>
+                <div className="ml-3 lg:ml-6">
+                  <h3 className="font-way lg:text-[0.9rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 text-sm">
+                    {title}
+                  </h3>
+                  <p className="mt-2 leading-6 text-white lg:mt-4">
+                    {description}
+                  </p>
+                </div>
+              </li>
             ))}
           </ul>
         </div>

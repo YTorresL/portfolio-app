@@ -494,7 +494,7 @@ function Services() {
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "my-20",
+                className: "py-20",
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                     className: "container mx-auto",
                     children: [

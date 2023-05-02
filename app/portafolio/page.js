@@ -15,7 +15,7 @@ export default function Portfolio() {
   return (
     <AppLayout>
       <NavigationGeneral />
-      <div className="px-[2%] m-[4%]">
+      <div className="mx-[2%] p-[4%]">
         <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {portfolio.map(({ id, ImagePortfolio, Description }) => (
             <Link

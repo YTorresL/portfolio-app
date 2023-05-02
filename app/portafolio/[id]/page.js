@@ -30,7 +30,7 @@ export default function PortfolioId({ params }) {
   }
 
   return (
-    <AppLayout>
+    <AppLayout className="h-full">
       <NavigationGeneral />
       <div className="overflow-hidden text-gray-700 mb-[3%]" key={portfolio.id}>
         <div className="px-2 mx-auto lg:px-5">

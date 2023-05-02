@@ -93,9 +93,9 @@ function RootLayout({ children  }) {
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 
-function AppLayout({ children  }) {
+function AppLayout({ children , className  }) {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: "w-[88%] mx-auto border-x border-[#3a3a32] h-full",
+        className: `w-[88%] mx-auto border-x border-[#3a3a32] ${className}`,
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
             children: children
         })
@@ -115,9 +115,9 @@ function AppLayout({ children  }) {
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 
-function Footer() {
+function Footer({ className  }) {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("footer", {
-        className: "flex items-center justify-center border-[#3a3a32] border-t",
+        className: `${className} flex items-center justify-center border-[#3a3a32] border-t`,
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
             className: "md:text-[0.7rem] font-bold uppercase tracking-[0.32rem] text-amber-500 py-6 text-[0.6rem]",
             children: "YTorres"

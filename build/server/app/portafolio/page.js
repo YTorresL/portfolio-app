@@ -465,7 +465,7 @@ function Portfolio() {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Navigation_page__WEBPACK_IMPORTED_MODULE_6__/* .NavigationGeneral */ .$M, {}),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "px-[2%] m-[4%]",
+                className: "mx-[2%] p-[4%]",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3",
                     children: portfolio.map(({ id , ImagePortfolio , Description  })=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
