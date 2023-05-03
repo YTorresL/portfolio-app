@@ -44,6 +44,14 @@ module.exports = require("next/dist/shared/lib/app-router-context.js");
 
 /***/ }),
 
+/***/ 92796:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
 /***/ 69274:
 /***/ ((module) => {
 
@@ -681,7 +689,7 @@ function Services() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [55,573], () => (__webpack_exec__(29687)));
+var __webpack_exports__ = __webpack_require__.X(0, [918,385], () => (__webpack_exec__(29687)));
 module.exports = __webpack_exports__;
 
 })();

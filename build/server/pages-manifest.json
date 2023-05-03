@@ -1,7 +1,7 @@
 {
-  "/api/contact/api": "pages/api/contact/api.js",
-  "/api/portfolio/[id]": "pages/api/portfolio/[id].js",
   "/_app": "pages/_app.js",
+  "/api/portfolio/[id]": "pages/api/portfolio/[id].js",
+  "/api/contact/api": "pages/api/contact/api.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
