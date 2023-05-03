@@ -492,12 +492,57 @@ const crealotodo = [
         })
     }
 ];
+const pulsoCreativo = [
+    {
+        label: "WordPress",
+        icon: /*#__PURE__*/ jsx_runtime_.jsx(Icons/* WordPress */.vv, {
+            fill: "#fff",
+            width: "34"
+        })
+    },
+    {
+        label: "HTML",
+        icon: /*#__PURE__*/ jsx_runtime_.jsx(Icons/* HTML */.k9, {
+            fill: "#fff",
+            width: "24"
+        })
+    },
+    {
+        label: "Divi",
+        icon: /*#__PURE__*/ jsx_runtime_.jsx(Icons/* Divi */.LH, {
+            width: "28"
+        })
+    },
+    {
+        label: "CSS",
+        icon: /*#__PURE__*/ jsx_runtime_.jsx(Icons/* CSS */.ux, {
+            fill: "#fff",
+            width: "24"
+        })
+    },
+    {
+        label: "JavaScript",
+        icon: /*#__PURE__*/ jsx_runtime_.jsx(Icons/* JavaScript */.ip, {
+            fill: "#fff",
+            width: "24"
+        })
+    }
+];
 function Techologies() {
     return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
         className: "flex flex-wrap justify-center py-1",
         children: lenguage.map(({ label  })=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                className: "mr-2 text-[0.7rem] font-bold uppercase tracking-[0.32rem] text-amber-500 px-1 sm:leading-5",
+                className: "mr-2 text-[0.7rem] font-bold uppercase tracking-[0.32rem] text-amber-500 px-1 leading-5",
                 children: label
+            }, label))
+    });
+}
+function PulsoCreativo() {
+    return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+        className: "flex my-4 md:mb-8",
+        children: pulsoCreativo.map(({ label , icon  })=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
+                className: "mr-2",
+                children: icon
             }, label))
     });
 }
@@ -1717,7 +1762,7 @@ function Home() {
                                                 children: "Soy desarrolladora web y programadora en Python con habilidades en dise\xf1o web e ilustraci\xf3n. Me especializo en el uso de Next.js para proyectos y actualmente estudio ingenier\xeda computacional."
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                className: "hidden mb-3 bg-neutral-900/50 md:block",
+                                                className: "mb-3 bg-neutral-900/50",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx(Techologies, {})
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("details", {
@@ -1741,7 +1786,7 @@ function Home() {
                                                             })
                                                         ]
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(Crealotodo, {})
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(PulsoCreativo, {})
                                                 ]
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("details", {

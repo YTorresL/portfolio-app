@@ -2,7 +2,7 @@
 import AppLayout from "@/components/AppLayout/page"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Mousewheel, Pagination } from "swiper"
-import Techologies, { Crealotodo } from "@/components/Icons/page"
+import Techologies, { Crealotodo, PulsoCreativo } from "@/components/Icons/page"
 import NavigationHome, {
   NavigationLink,
   NavigationSection,
@@ -226,7 +226,7 @@ export default function Home() {
                   uso de Next.js para proyectos y actualmente estudio ingeniería
                   computacional.
                 </p>
-                <div className="hidden mb-3 bg-neutral-900/50 md:block">
+                <div className="mb-3 bg-neutral-900/50">
                   <Techologies />
                 </div>
                 <details className="mb-3" open>
@@ -237,7 +237,7 @@ export default function Home() {
                     <li>Desarrolladora web | 2022 – 2023</li>
                     <li>Responsable de: Diseño y desarrollo de páginas web.</li>
                   </ul>
-                  <Crealotodo />
+                  <PulsoCreativo />
                 </details>
                 <details className="mb-3">
                   <summary className="font-bold text-white">
