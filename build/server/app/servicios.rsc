@@ -1,5 +1,5 @@
 0:[[["",{"children":["servicios",{"children":["",{}]}]},null,null,true],"$L1",["$L2",[["$","title",null,{"children":"YTorres - Portfolio"}],["$","meta",null,{"content":"width=device-width, initial-scale=1","name":"viewport"}],["$","meta",null,{"name":"description","content":"Portfolio web"}],["$","link",null,{"rel":"icon","href":"/YTorres.ico"}]]]]]
-3:I{"id":"5697","chunks":["185:app/layout-af5cad980cc5bd6f"],"name":"","async":false}
+3:I{"id":"5697","chunks":["185:app/layout-19f993afc4092a0a"],"name":"","async":false}
 4:I{"id":"8892","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false}
 5:I{"id":"8880","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false}
 6:I{"id":"2856","chunks":["629:629-e1747fb5f1e3ab06","519:519-a2ee79399153a691","672:app/servicios/page-b8c8f528ac997268"],"name":"default","async":true}

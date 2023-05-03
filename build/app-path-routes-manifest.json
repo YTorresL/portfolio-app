@@ -1,6 +1,6 @@
 {
   "/page": "/",
-  "/portafolio/page": "/portafolio",
+  "/portafolio/[id]/page": "/portafolio/[id]",
   "/servicios/page": "/servicios",
-  "/portafolio/[id]/page": "/portafolio/[id]"
+  "/portafolio/page": "/portafolio"
 }
