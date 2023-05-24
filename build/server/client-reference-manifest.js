@@ -1,1 +1,669 @@
-self.__RSC_MANIFEST={"__ssr_module_mapping__":{"611":{"*":{"id":"95958","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"":{"id":"95958","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"default":{"id":"95958","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false}},"2856":{"*":{"id":"87816","chunks":["629:629-e1747fb5f1e3ab06","519:519-a2ee79399153a691","672:app/servicios/page-b8c8f528ac997268"],"name":"*","async":false},"":{"id":"87816","chunks":["629:629-e1747fb5f1e3ab06","519:519-a2ee79399153a691","672:app/servicios/page-b8c8f528ac997268"],"name":"","async":false},"default":{"id":"87816","chunks":["629:629-e1747fb5f1e3ab06","519:519-a2ee79399153a691","672:app/servicios/page-b8c8f528ac997268"],"name":"default","async":false}},"4051":{"*":{"id":"34585","chunks":["613:5c65a573-f14eab4975338b6d","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","519:519-a2ee79399153a691","814:app/portafolio/page-db0b9ae2c28079d6"],"name":"*","async":false},"":{"id":"34585","chunks":["613:5c65a573-f14eab4975338b6d","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","519:519-a2ee79399153a691","814:app/portafolio/page-db0b9ae2c28079d6"],"name":"","async":false},"default":{"id":"34585","chunks":["613:5c65a573-f14eab4975338b6d","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","519:519-a2ee79399153a691","814:app/portafolio/page-db0b9ae2c28079d6"],"name":"default","async":false}},"5342":{"*":{"id":"43413","chunks":["629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","519:519-a2ee79399153a691","549:app/portafolio/[id]/page-4eca529ffde31416"],"name":"*","async":false},"":{"id":"43413","chunks":["629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","519:519-a2ee79399153a691","549:app/portafolio/[id]/page-4eca529ffde31416"],"name":"","async":false},"default":{"id":"43413","chunks":["629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","519:519-a2ee79399153a691","549:app/portafolio/[id]/page-4eca529ffde31416"],"name":"default","async":false}},"5697":{"*":{"id":"82398","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"*","async":false},"":{"id":"82398","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"","async":false},"default":{"id":"82398","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"default","async":false}},"6562":{"*":{"id":"7981","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"*","async":false},"":{"id":"7981","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"","async":false},"default":{"id":"7981","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"default","async":false}},"8331":{"*":{"id":"81551","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"":{"id":"81551","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"default":{"id":"81551","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false}},"8880":{"*":{"id":"12513","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"":{"id":"12513","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"default":{"id":"12513","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false}},"8892":{"*":{"id":"48950","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"":{"id":"48950","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"default":{"id":"48950","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false}}},"__edge_ssr_module_mapping__":{},"__entry_css_files__":{"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\page":["static/css/84eab2b4169eb7a5.css"],"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\layout":["static/css/a87141690fd5a032.css","static/css/0bc0cde260d08b97.css"]},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\app-router.js":{"id":"611","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js":{"id":"611","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\app-router.js#":{"id":"611","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#":{"id":"611","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\app-router.js#default":{"id":"611","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default":{"id":"611","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js":{"id":"8331","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js":{"id":"8331","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#":{"id":"8331","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#":{"id":"8331","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default":{"id":"8331","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default":{"id":"8331","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\layout-router.js":{"id":"8892","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js":{"id":"8892","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\layout-router.js#":{"id":"8892","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#":{"id":"8892","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\layout-router.js#default":{"id":"8892","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default":{"id":"8892","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js":{"id":"8880","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js":{"id":"8880","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#":{"id":"8880","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#":{"id":"8880","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default":{"id":"8880","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default":{"id":"8880","chunks":["272:webpack-61fb2ce13a1c22c8","455:455-effd829072af0fc2"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\portafolio\\page.js":{"id":"4051","chunks":["613:5c65a573-f14eab4975338b6d","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","519:519-a2ee79399153a691","814:app/portafolio/page-db0b9ae2c28079d6"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\portafolio\\page.js#":{"id":"4051","chunks":["613:5c65a573-f14eab4975338b6d","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","519:519-a2ee79399153a691","814:app/portafolio/page-db0b9ae2c28079d6"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\portafolio\\page.js#default":{"id":"4051","chunks":["613:5c65a573-f14eab4975338b6d","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","519:519-a2ee79399153a691","814:app/portafolio/page-db0b9ae2c28079d6"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\script.js":{"id":"5697","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\script.js":{"id":"5697","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\script.js#":{"id":"5697","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\script.js#":{"id":"5697","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\client\\script.js#default":{"id":"5697","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\script.js#default":{"id":"5697","chunks":["185:app/layout-22a7c6ee544c8e33"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\servicios\\page.js":{"id":"2856","chunks":["629:629-e1747fb5f1e3ab06","519:519-a2ee79399153a691","672:app/servicios/page-b8c8f528ac997268"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\servicios\\page.js#":{"id":"2856","chunks":["629:629-e1747fb5f1e3ab06","519:519-a2ee79399153a691","672:app/servicios/page-b8c8f528ac997268"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\servicios\\page.js#default":{"id":"2856","chunks":["629:629-e1747fb5f1e3ab06","519:519-a2ee79399153a691","672:app/servicios/page-b8c8f528ac997268"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\portafolio\\[id]\\page.js":{"id":"5342","chunks":["629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","519:519-a2ee79399153a691","549:app/portafolio/[id]/page-4eca529ffde31416"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\portafolio\\[id]\\page.js#":{"id":"5342","chunks":["629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","519:519-a2ee79399153a691","549:app/portafolio/[id]/page-4eca529ffde31416"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\portafolio\\[id]\\page.js#default":{"id":"5342","chunks":["629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","519:519-a2ee79399153a691","549:app/portafolio/[id]/page-4eca529ffde31416"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\slick-carousel\\slick\\slick-theme.css#":{"id":"8382","name":"","chunks":["static/css/84eab2b4169eb7a5.css"]},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\slick-carousel\\slick\\slick.css#":{"id":"4538","name":"","chunks":["static/css/84eab2b4169eb7a5.css"]},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\swiper.css#":{"id":"null","name":"","chunks":["static/css/84eab2b4169eb7a5.css"]},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\page.js":{"id":"6562","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\page.js#":{"id":"6562","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\page.js#default":{"id":"6562","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\public\\yalith.jpg":{"id":"6562","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"*","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\public\\yalith.jpg#":{"id":"6562","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\public\\yalith.jpg#default":{"id":"6562","chunks":["613:5c65a573-f14eab4975338b6d","174:05ee798f-198b50330bb67711","629:629-e1747fb5f1e3ab06","394:394-c770e9a7ff8c7f0b","282:282-84641a0055755278","488:488-cca2604be1dc9a4b","519:519-a2ee79399153a691","931:app/page-2d5ae41cef450b0b"],"name":"default","async":false},"C:\\Users\\yalit\\Desktop\\portfolio-app\\node_modules\\normalize.css\\normalize.css#":{"id":"null","name":"","chunks":["static/css/0bc0cde260d08b97.css"]},"C:\\Users\\yalit\\Desktop\\portfolio-app\\app\\globals.css#":{"id":"null","name":"","chunks":["static/css/a87141690fd5a032.css"]}}
+self.__RSC_MANIFEST={
+  "__ssr_module_mapping__": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/script.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/portafolio/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/portafolio/page.js",
+        "chunks": [
+          "app/portafolio/page:app/portafolio/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/portafolio/page.js",
+        "chunks": [
+          "app/portafolio/page:app/portafolio/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/portafolio/page.js",
+        "chunks": [
+          "app/portafolio/page:app/portafolio/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/portafolio/[id]/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/portafolio/[id]/page.js",
+        "chunks": [
+          "app/portafolio/[id]/page:app/portafolio/[id]/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/portafolio/[id]/page.js",
+        "chunks": [
+          "app/portafolio/[id]/page:app/portafolio/[id]/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/portafolio/[id]/page.js",
+        "chunks": [
+          "app/portafolio/[id]/page:app/portafolio/[id]/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./public/yalith.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/yalith.jpg",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./public/yalith.jpg",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/yalith.jpg",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/servicios/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/servicios/page.js",
+        "chunks": [
+          "app/servicios/page:app/servicios/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/servicios/page.js",
+        "chunks": [
+          "app/servicios/page:app/servicios/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/servicios/page.js",
+        "chunks": [
+          "app/servicios/page:app/servicios/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page": [
+      "static/css/app/page.css"
+    ],
+    "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\layout": [
+      "static/css/_app-client_node_modules_normalize_css_normalize_css.css",
+      "static/css/_app-client_app_globals_css.css"
+    ]
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\script.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/script.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\script.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/script.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\script.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/script.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\script.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/script.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\script.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/script.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\esm\\client\\script.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/script.js",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js": {
+    "id": "(app-client)/./app/portafolio/page.js",
+    "chunks": [
+      "app/portafolio/page:app/portafolio/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js#": {
+    "id": "(app-client)/./app/portafolio/page.js",
+    "chunks": [
+      "app/portafolio/page:app/portafolio/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js#default": {
+    "id": "(app-client)/./app/portafolio/page.js",
+    "chunks": [
+      "app/portafolio/page:app/portafolio/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\[id]\\page.js": {
+    "id": "(app-client)/./app/portafolio/[id]/page.js",
+    "chunks": [
+      "app/portafolio/[id]/page:app/portafolio/[id]/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\[id]\\page.js#": {
+    "id": "(app-client)/./app/portafolio/[id]/page.js",
+    "chunks": [
+      "app/portafolio/[id]/page:app/portafolio/[id]/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\[id]\\page.js#default": {
+    "id": "(app-client)/./app/portafolio/[id]/page.js",
+    "chunks": [
+      "app/portafolio/[id]/page:app/portafolio/[id]/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\swiper.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/app/page.css"
+    ]
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\slick-carousel\\slick\\slick-theme.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/app/page.css"
+    ]
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\slick-carousel\\slick\\slick.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/app/page.css"
+    ]
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\public\\yalith.jpg": {
+    "id": "(app-client)/./public/yalith.jpg",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\public\\yalith.jpg#": {
+    "id": "(app-client)/./public/yalith.jpg",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\public\\yalith.jpg#default": {
+    "id": "(app-client)/./public/yalith.jpg",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js": {
+    "id": "(app-client)/./app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js#": {
+    "id": "(app-client)/./app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js#default": {
+    "id": "(app-client)/./app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\servicios\\page.js": {
+    "id": "(app-client)/./app/servicios/page.js",
+    "chunks": [
+      "app/servicios/page:app/servicios/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\servicios\\page.js#": {
+    "id": "(app-client)/./app/servicios/page.js",
+    "chunks": [
+      "app/servicios/page:app/servicios/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\servicios\\page.js#default": {
+    "id": "(app-client)/./app/servicios/page.js",
+    "chunks": [
+      "app/servicios/page:app/servicios/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\globals.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/_app-client_app_globals_css.css"
+    ]
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\normalize.css\\normalize.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/_app-client_node_modules_normalize_css_normalize_css.css"
+    ]
+  }
+}

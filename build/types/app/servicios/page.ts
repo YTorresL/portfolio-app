@@ -1,4 +1,4 @@
-// File: C:\Users\yalit\Desktop\portfolio-app\app\servicios\page.js
+// File: C:\Users\yalit\Desktop\YTorres\portfolio-app\app\servicios\page.js
 import * as entry from '../../../../app/servicios/page'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 

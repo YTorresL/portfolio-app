@@ -37,7 +37,7 @@ export default function PortfolioId({ params }) {
           <p className="lg:ml-8 font-way lg:text-[3rem] lg:py-0 py-[4%] word-12 uppercase tracking-[0.45rem] text-amber-500 text-2xl lg:mb-0 lg:mt-5">
             {portfolio.Date}
           </p>
-          <div className="flex flex-wrap mx-auto lg:w-[95%]">
+          <div className="flex flex-wrap mx-auto lg:w-[95%] xl:pt-4">
             <Image
               alt={`${portfolio.Description}`}
               className="object-contain object-center w-full lg:w-[55%]"
@@ -59,11 +59,21 @@ export default function PortfolioId({ params }) {
                 {portfolio.Technologies}
               </p>
             </div>
-            <button className="mt-[2%] w-full py-2 text-[0.8rem] font-bold uppercase tracking-[0.32rem] bg-amber-500 text-white lg:mb-0 mb-[34%]">
-              <Link href={`${portfolio.Link}`} target="_blank" rel="noreferrer">
-                <span>View Project</span>
-              </Link>
-            </button>
+            {portfolio.Link.length > 5 ? (
+              <button className="mt-[2%] w-full py-2 text-[0.8rem] font-bold uppercase tracking-[0.32rem] bg-amber-500 text-white lg:mb-0 mb-[53%]">
+                <Link
+                  href={`${portfolio.Link}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span>View Project</span>
+                </Link>
+              </button>
+            ) : (
+              <span className="text-white mt-[2%] lg:mt-8 py-2 text-center w-full md:text-xs text-[0.6rem] font-semibold uppercase tracking-[0.32rem] bg-neutral-900/50 lg:mb-0 mb-[53%]">
+                Este proyecto ya no esta disponible
+              </span>
+            )}
           </div>
         </div>
       </div>
