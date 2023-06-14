@@ -17,7 +17,7 @@ const VivusJs = () => {
   }
 
   return (
-    <div ref={ref} className="absolute md:block -bottom-1 right-[7%] hidden">
+    <div ref={ref} className="absolute md:block -bottom-[1%] right-[1%] hidden">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         data-name="Capa 4"

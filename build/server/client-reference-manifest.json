@@ -104,6 +104,32 @@
         "async": false
       }
     },
+    "(app-client)/./app/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/page.js",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/script.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
@@ -125,32 +151,6 @@
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "chunks": [
           "app/layout:app/layout"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
-    "(app-client)/./app/portafolio/page.js": {
-      "*": {
-        "id": "(sc_client)/./app/portafolio/page.js",
-        "chunks": [
-          "app/portafolio/page:app/portafolio/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/portafolio/page.js",
-        "chunks": [
-          "app/portafolio/page:app/portafolio/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/portafolio/page.js",
-        "chunks": [
-          "app/portafolio/page:app/portafolio/page"
         ],
         "name": "default",
         "async": false
@@ -182,53 +182,27 @@
         "async": false
       }
     },
-    "(app-client)/./public/yalith.jpg": {
+    "(app-client)/./app/portafolio/page.js": {
       "*": {
-        "id": "(sc_client)/./public/yalith.jpg",
+        "id": "(sc_client)/./app/portafolio/page.js",
         "chunks": [
-          "app/page:app/page"
+          "app/portafolio/page:app/portafolio/page"
         ],
         "name": "*",
         "async": false
       },
       "": {
-        "id": "(sc_client)/./public/yalith.jpg",
+        "id": "(sc_client)/./app/portafolio/page.js",
         "chunks": [
-          "app/page:app/page"
+          "app/portafolio/page:app/portafolio/page"
         ],
         "name": "",
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/yalith.jpg",
+        "id": "(sc_client)/./app/portafolio/page.js",
         "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
-    "(app-client)/./app/page.js": {
-      "*": {
-        "id": "(sc_client)/./app/page.js",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/page.js",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/page.js",
-        "chunks": [
-          "app/page:app/page"
+          "app/portafolio/page:app/portafolio/page"
         ],
         "name": "default",
         "async": false
@@ -259,12 +233,119 @@
         "name": "default",
         "async": false
       }
+    },
+    "(app-client)/./app/en/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/en/page.js",
+        "chunks": [
+          "app/en/page:app/en/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/en/page.js",
+        "chunks": [
+          "app/en/page:app/en/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/en/page.js",
+        "chunks": [
+          "app/en/page:app/en/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/en/services/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/en/services/page.js",
+        "chunks": [
+          "app/en/services/page:app/en/services/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/en/services/page.js",
+        "chunks": [
+          "app/en/services/page:app/en/services/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/en/services/page.js",
+        "chunks": [
+          "app/en/services/page:app/en/services/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/en/portfolio/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/en/portfolio/page.js",
+        "chunks": [
+          "app/en/portfolio/page:app/en/portfolio/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/en/portfolio/page.js",
+        "chunks": [
+          "app/en/portfolio/page:app/en/portfolio/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/en/portfolio/page.js",
+        "chunks": [
+          "app/en/portfolio/page:app/en/portfolio/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/en/portfolio/[id]/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/en/portfolio/[id]/page.js",
+        "chunks": [
+          "app/en/portfolio/[id]/page:app/en/portfolio/[id]/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/en/portfolio/[id]/page.js",
+        "chunks": [
+          "app/en/portfolio/[id]/page:app/en/portfolio/[id]/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/en/portfolio/[id]/page.js",
+        "chunks": [
+          "app/en/portfolio/[id]/page:app/en/portfolio/[id]/page"
+        ],
+        "name": "default",
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page": [
       "static/css/app/page.css"
+    ],
+    "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\page": [
+      "static/css/app/en/page.css"
     ],
     "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\layout": [
       "static/css/_app-client_node_modules_normalize_css_normalize_css.css",
@@ -463,6 +544,54 @@
     "name": "default",
     "async": false
   },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\swiper.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/app/page.css",
+      "static/css/app/en/page.css"
+    ]
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\slick-carousel\\slick\\slick-theme.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/app/page.css",
+      "static/css/app/en/page.css"
+    ]
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\slick-carousel\\slick\\slick.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/app/page.css",
+      "static/css/app/en/page.css"
+    ]
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js": {
+    "id": "(app-client)/./app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js#": {
+    "id": "(app-client)/./app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js#default": {
+    "id": "(app-client)/./app/page.js",
+    "chunks": [
+      "app/page:app/page"
+    ],
+    "name": "default",
+    "async": false
+  },
   "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\next\\dist\\client\\script.js": {
     "id": "(app-client)/./node_modules/next/dist/client/script.js",
     "chunks": [
@@ -511,30 +640,6 @@
     "name": "default",
     "async": false
   },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js": {
-    "id": "(app-client)/./app/portafolio/page.js",
-    "chunks": [
-      "app/portafolio/page:app/portafolio/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js#": {
-    "id": "(app-client)/./app/portafolio/page.js",
-    "chunks": [
-      "app/portafolio/page:app/portafolio/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js#default": {
-    "id": "(app-client)/./app/portafolio/page.js",
-    "chunks": [
-      "app/portafolio/page:app/portafolio/page"
-    ],
-    "name": "default",
-    "async": false
-  },
   "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\[id]\\page.js": {
     "id": "(app-client)/./app/portafolio/[id]/page.js",
     "chunks": [
@@ -559,71 +664,26 @@
     "name": "default",
     "async": false
   },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\swiper.css#": {
-    "id": "null",
-    "name": "",
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js": {
+    "id": "(app-client)/./app/portafolio/page.js",
     "chunks": [
-      "static/css/app/page.css"
-    ]
-  },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\slick-carousel\\slick\\slick-theme.css#": {
-    "id": "null",
-    "name": "",
-    "chunks": [
-      "static/css/app/page.css"
-    ]
-  },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\node_modules\\slick-carousel\\slick\\slick.css#": {
-    "id": "null",
-    "name": "",
-    "chunks": [
-      "static/css/app/page.css"
-    ]
-  },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\public\\yalith.jpg": {
-    "id": "(app-client)/./public/yalith.jpg",
-    "chunks": [
-      "app/page:app/page"
+      "app/portafolio/page:app/portafolio/page"
     ],
     "name": "*",
     "async": false
   },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\public\\yalith.jpg#": {
-    "id": "(app-client)/./public/yalith.jpg",
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js#": {
+    "id": "(app-client)/./app/portafolio/page.js",
     "chunks": [
-      "app/page:app/page"
+      "app/portafolio/page:app/portafolio/page"
     ],
     "name": "",
     "async": false
   },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\public\\yalith.jpg#default": {
-    "id": "(app-client)/./public/yalith.jpg",
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\portafolio\\page.js#default": {
+    "id": "(app-client)/./app/portafolio/page.js",
     "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js": {
-    "id": "(app-client)/./app/page.js",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js#": {
-    "id": "(app-client)/./app/page.js",
-    "chunks": [
-      "app/page:app/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\page.js#default": {
-    "id": "(app-client)/./app/page.js",
-    "chunks": [
-      "app/page:app/page"
+      "app/portafolio/page:app/portafolio/page"
     ],
     "name": "default",
     "async": false
@@ -648,6 +708,102 @@
     "id": "(app-client)/./app/servicios/page.js",
     "chunks": [
       "app/servicios/page:app/servicios/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\page.js": {
+    "id": "(app-client)/./app/en/page.js",
+    "chunks": [
+      "app/en/page:app/en/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\page.js#": {
+    "id": "(app-client)/./app/en/page.js",
+    "chunks": [
+      "app/en/page:app/en/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\page.js#default": {
+    "id": "(app-client)/./app/en/page.js",
+    "chunks": [
+      "app/en/page:app/en/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\services\\page.js": {
+    "id": "(app-client)/./app/en/services/page.js",
+    "chunks": [
+      "app/en/services/page:app/en/services/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\services\\page.js#": {
+    "id": "(app-client)/./app/en/services/page.js",
+    "chunks": [
+      "app/en/services/page:app/en/services/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\services\\page.js#default": {
+    "id": "(app-client)/./app/en/services/page.js",
+    "chunks": [
+      "app/en/services/page:app/en/services/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\portfolio\\page.js": {
+    "id": "(app-client)/./app/en/portfolio/page.js",
+    "chunks": [
+      "app/en/portfolio/page:app/en/portfolio/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\portfolio\\page.js#": {
+    "id": "(app-client)/./app/en/portfolio/page.js",
+    "chunks": [
+      "app/en/portfolio/page:app/en/portfolio/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\portfolio\\page.js#default": {
+    "id": "(app-client)/./app/en/portfolio/page.js",
+    "chunks": [
+      "app/en/portfolio/page:app/en/portfolio/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\portfolio\\[id]\\page.js": {
+    "id": "(app-client)/./app/en/portfolio/[id]/page.js",
+    "chunks": [
+      "app/en/portfolio/[id]/page:app/en/portfolio/[id]/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\portfolio\\[id]\\page.js#": {
+    "id": "(app-client)/./app/en/portfolio/[id]/page.js",
+    "chunks": [
+      "app/en/portfolio/[id]/page:app/en/portfolio/[id]/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\yalit\\Desktop\\YTorres\\portfolio-app\\app\\en\\portfolio\\[id]\\page.js#default": {
+    "id": "(app-client)/./app/en/portfolio/[id]/page.js",
+    "chunks": [
+      "app/en/portfolio/[id]/page:app/en/portfolio/[id]/page"
     ],
     "name": "default",
     "async": false

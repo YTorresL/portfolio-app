@@ -1,5 +1,11 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -10,26 +16,41 @@
       "static/chunks/main-app.js",
       "static/chunks/app/head.js"
     ],
-    "/portafolio/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/portafolio/page.js"
-    ],
     "/portafolio/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/portafolio/[id]/page.js"
     ],
-    "/page": [
+    "/portafolio/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/chunks/app/portafolio/page.js"
     ],
     "/servicios/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/servicios/page.js"
+    ],
+    "/en/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/en/page.css",
+      "static/chunks/app/en/page.js"
+    ],
+    "/en/services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/en/services/page.js"
+    ],
+    "/en/portfolio/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/en/portfolio/page.js"
+    ],
+    "/en/portfolio/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/en/portfolio/[id]/page.js"
     ]
   }
 }
