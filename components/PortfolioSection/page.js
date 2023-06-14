@@ -41,7 +41,9 @@ export default function PortfolioSection({ english, spanish }) {
                 <ul className="absolute p-1 m-1 bg-black sm:py-2 md:pl-8 sm:pl-3 sm:pr-5 sm:my-2 xl:ml-2">
                   <li className="xl:text-[0.7rem] text-[0.6rem] font-bold uppercase tracking-[0.32rem] flex text-amber-500 md:list-disc pl-1">
                     {Date}
-                    <span className="hidden sm:block"> - {item.Type}</span>
+                    <span className="hidden sm:block">
+                      {item.Date} - {item.Type}
+                    </span>
                   </li>
                 </ul>
                 <Link
