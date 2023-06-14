@@ -3,7 +3,7 @@ import Portfolio from "@/components/Portfolio/page"
 import { useEffect, useState } from "react"
 import { fetchPortfolio } from "@/firebase/client"
 import AppLayout from "@/components/AppLayout/page"
-import { NavigationGeneral } from "@/components/Navigation/page"
+import NavigationGeneral from "@/components/NavigationGeneral/page"
 import { Footer } from "@/components/Footer/page"
 
 export default function PortfolioPage() {

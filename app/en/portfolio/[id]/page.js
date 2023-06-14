@@ -1,7 +1,7 @@
 "use client"
 import AppLayout from "@/components/AppLayout/page"
 import { Footer } from "@/components/Footer/page"
-import { NavigationGeneral } from "@/components/Navigation/page"
+import NavigationGeneral from "@/components/NavigationGeneral/page"
 import PortfolioId from "@/components/PortfolioId/page"
 import { useState, useEffect } from "react"
 

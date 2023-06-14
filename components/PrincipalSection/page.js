@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Usa } from "../Icons/Icons"
-import NavigationLinks from "../Navigation/page"
+import Navigation from "../Navigation/page"
 
 const fullName = "Yalith Torres"
 
@@ -15,8 +15,8 @@ export default function PrincipalSection({ english, spanish }) {
           {spanish && "Desarrollo web y programación en python"}
           {english && "Web development and python programming"}
         </p>
-        {english && <NavigationLinks english />}
-        {spanish && <NavigationLinks spanish />}
+        {english && <Navigation english />}
+        {spanish && <Navigation spanish />}
       </div>
       <div className="absolute bottom-[1%] right-[1%]">
         <p className="text-[0.6rem] font-bold uppercase tracking-[0.32rem] text-amber-500 hidden sm:block">
