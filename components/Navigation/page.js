@@ -98,11 +98,13 @@ export function NavigationGeneral({ spanish, english }) {
               <li className="md:mx-2 lg:mx-4" key={index}>
                 <Link
                   className="text-[0.7rem] font-bold uppercase tracking-[0.32rem] text-amber-500"
-                  href={spanish
+                  href={
+                    spanish
                       ? item.route
                       : english
                       ? item.englishRoute
-                      : item.route}
+                      : item.route
+                  }
                 >
                   {spanish && item.label}
                   {english && item.englishLabel}
@@ -191,7 +193,7 @@ export function NavigationSection({ children }) {
   )
 }
 
-export function NavigationLink({ spanish, english }) {
+export function NavigationLinks({ spanish, english }) {
   return (
     <ul className="justify-center sm:flex">
       {links.map((item, index) => (
