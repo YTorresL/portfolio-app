@@ -32,7 +32,7 @@ export default function PortfolioId({ portfolio, spanish, english }) {
             </h1>
             <p className="mb-[3%] leading-6 text-white lg:mb-5">
               {spanish && portfolio.Description}
-              {spanish && portfolio.englishDescription}
+              {english && portfolio.englishDescription}
             </p>
             <p className="text-[0.6rem] font-semibold uppercase tracking-[0.32rem] text-amber-500 bg-neutral-900/50 p-[2%] text-center lg:mb-[2%] mb-[3%]">
               {portfolio.Technologies}

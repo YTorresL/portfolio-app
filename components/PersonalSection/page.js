@@ -36,6 +36,17 @@ const relevantInformation = [
 
 const jobsInformation = [
   {
+    company: "Emprex",
+    position: "Desarrolladora web",
+    englishPosition: "Web developer",
+    start: "2023",
+    end: "Presente",
+    englishEnd: "Present",
+    responsibility: "Desarrollo de páginas web.",
+    englishResponsibility: "Development of web pages.",
+    tools: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Next.Js"],
+  },
+  {
     company: "Pulso creativo",
     position: "Desarrolladora web",
     englishPosition: "Web developer",
