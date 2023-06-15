@@ -42,7 +42,8 @@ export default function PortfolioSection({ english, spanish }) {
                   <li className="xl:text-[0.7rem] text-[0.6rem] font-bold uppercase tracking-[0.32rem] flex text-amber-500 md:list-disc pl-1">
                     {Date}
                     <span className="hidden sm:block">
-                      {item.Date} - {item.Type}
+                      {item.Date} - {spanish && item.Type}
+                      {english && item.englishType}
                     </span>
                   </li>
                 </ul>

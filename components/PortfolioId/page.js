@@ -19,12 +19,13 @@ export default function PortfolioId({ portfolio, spanish, english }) {
             }`}
             className="object-contain object-center w-full lg:w-[55%]"
             src={portfolio.ImagePortfolio}
-            width={500}
-            height={500}
+            width={1000}
+            height={1000}
           />
           <div className="w-full mt-[6%] lg:w-[45%] lg:pl-10 lg:py-6 lg:mt-0">
             <h2 className="lg:text-[0.8rem] mb-[1%] font-semibold uppercase tracking-[0.32rem] text-amber-500 lg:mb-2 lg:mt-12 text-xs">
               {spanish && portfolio.Type}
+              {english && portfolio.englishType}
             </h2>
             <h1 className="font-bold mb-[2%] font-way text-[1.2rem] uppercase tracking-[0.32rem] text-white">
               {portfolio.Name}
